@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-65deg, #ffecd2, #fcb69f);
+  min-width: 100%;
+  min-height: 100vh;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  border-radius: 10px 0 10px 0;
+  width: 40rem;
+  max-width: 100%;
+  padding: 3rem;
+}
+
+.btn-newQuote {
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  background-color: #fcb69f;
+  border: 0.2rem solid #fda085;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-newQuote:hover {
+  opacity: 0.4;
+}
+
+.styled-author {
+  align-self: flex-end;
+}
+
+.header-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+}
